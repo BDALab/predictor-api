@@ -1,5 +1,11 @@
 # Predictor API
 
+![GitHub last commit](https://img.shields.io/github/last-commit/BDALab/predictor-api)
+![GitHub issues](https://img.shields.io/github/issues/BDALab/predictor-api)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/BDALab/predictor-api)
+![GitHub top language](https://img.shields.io/github/languages/top/BDALab/predictor-api)
+![GitHub](https://img.shields.io/github/license/BDALab/predictor-api)
+
 **Server side application**:
 
 This package provides a modern RESTFul predictor API created using Python programming language and [Flask-RESTful](https://flask-restful.readthedocs.io/en/latest/) library. It is designed to be used for various predictors due to its flexible input/output data definition (multi-dimensional features, multiple subjects, etc.). On top of that, the predictor API provides endpoints for user authentication and JWT-based request authorization, it supports handling of cross-origin resource sharing, request-response caching, advanced logging, etc. It comes also with the basic support for containerization via Docker (Dockerfile and docker-compose).

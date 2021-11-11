@@ -64,7 +64,7 @@ venv\Scripts\activate.bat
 # Install dependencies
 pip install -r requirements.txt
 
-# Two necessary steps (see the configuration section bellow):
+# Three necessary steps (see the configuration section bellow):
 #
 # 1. create .env file with the JWT secret key at api/.env
 # 2. add dependencies of the predictors to be used at requirements_predictors.txt
